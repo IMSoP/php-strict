@@ -1,0 +1,15 @@
+PHP Strict
+
+A set of simple utilities for adding strictness to your PHP,
+using facilities already built into the language.
+
+Trait IMSoP\Strict\Properties
+    Declare that the list of properties in your class is complete,
+    and should not be modified at runtime. Eliminates the possibility
+    of
+
+Trait IMSoP\Strict\StaticClass
+    Declare that a class consists only of static members, and should
+    not be constructed.
+    Does not make the entire class "final", but does prevent non-static descendant classes.
+    See also the rejected RFC https://wiki.php.net/rfc/abstract_final_class
